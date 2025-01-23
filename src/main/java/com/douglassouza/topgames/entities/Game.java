@@ -1,9 +1,23 @@
 package com.douglassouza.topgames.entities;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table( name= "tb_game")
+
 public class Game {
 
+    @Id
+    @GeneratedValue(Strategy = GenerationType.IDENTITY)
     private Long id;
     private String titulo;
+    
+    @Column(name = "game_ano")
     private Integer ano;
     private String genero;
     private String plataforma;
@@ -99,6 +113,8 @@ public class Game {
     public void setDescricaoLonga(String descricaoLonga) {
         this.descricaoLonga = descricaoLonga;
     }
+    public Game() {
+    }
 
     public Game(Long id, String titulo, Integer ano, String genero, String plataforma, String imgUrl,
                 String descricaoCurta, String descricaoLonga) {
@@ -112,3 +128,4 @@ public class Game {
         this.descricaoLonga = descricaoLonga;
     }
 }
+
