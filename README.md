@@ -4,4 +4,10 @@ O objetivo é listar os jogos com nome e descrição.
 
 Etapas do projeto:
 
-* Criar o Backend com o CRUD para a página de jogos (Em andamento)
+- ~~Criar projeto / lib Maven~~
+- ~~Salvar no Github~~
+- Arquivos Properties, entidade Game, ORM- Seed dos games
+- GameMinDTO, GameRepository,
+  GameService, GameController
+
+![1737593779152](image/README/1737593779152.png)
