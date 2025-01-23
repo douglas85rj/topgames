@@ -6,11 +6,14 @@ O objetivo é listar os jogos com nome e descrição.
 
 Etapas do projeto:
 
-- ~~Criar projeto / lib Maven~~
-- ~~Salvar no Github~~
-- ~~Arquivos Properties, entidade Game, ORM- Seed dos games~~
-- GameMinDTO, GameRepository,
-  GameService, GameController
+* ~~Criar projeto / lib Maven~~
+* ~~Salvar no Github~~
+* ~~Arquivos Properties, entidade Game, ORM- Seed dos games~~
+* ~~GameMinDTO, GameRepository,~~
+  ~~GameService, GameController~~
+* Aprimorar import e controller
+* Criar modelo de dominio
+* Criar Frontend
 
 #### Arquitetura do sistema web
 
