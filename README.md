@@ -8,7 +8,7 @@ Etapas do projeto:
 
 - ~~Criar projeto / lib Maven~~
 - ~~Salvar no Github~~
-- Arquivos Properties, entidade Game, ORM- Seed dos games
+- ~~Arquivos Properties, entidade Game, ORM- Seed dos games~~
 - GameMinDTO, GameRepository,
   GameService, GameController
 
