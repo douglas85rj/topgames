@@ -13,10 +13,10 @@ import jakarta.persistence.Table;
 public class Game {
 
     @Id
-    @GeneratedValue(Strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy  = GenerationType.IDENTITY)
     private Long id;
     private String titulo;
-    
+
     @Column(name = "game_ano")
     private Integer ano;
     private String genero;
