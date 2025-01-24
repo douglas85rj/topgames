@@ -20,7 +20,7 @@ Etapas do projeto:
 - [X] Busca totas listas em /lists
 - [X] Consulta SQL, projection, busca de games
   por lista
-- [ ] Criar os perfis de projeto *system.properties
+- [X] Criar os perfis de projeto *system.properties
 
 ##### Tecnologias utilizadas
 
