@@ -22,8 +22,6 @@ Etapas do projeto:
   por lista
 - [ ] Criar os perfis de projeto *system.properties
 
-
-
 ##### Tecnologias utilizadas
 
 * Java
@@ -31,6 +29,7 @@ Etapas do projeto:
 * JPA /Hibernate
 * Maven
 * PostgreSQL
+* H2
 
 ##### Arquitetura
 
