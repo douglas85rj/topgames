@@ -1,6 +1,6 @@
 ## Sistema web Top Games
 
-Objetivo: Gerenciar uma coleçäo de jogos
+> Objetivo: Gerenciar uma coleçäo de jogos
 
 Projeto criado em Java 21/Maven, com API rest e frontend. Foi utilizado Spring (Data JPA, Postgress, Spring web, H2).
 
@@ -8,20 +8,31 @@ O objetivo é listar os jogos com nome e descrição.
 
 Etapas do projeto:
 
-* ~~Criar projeto / lib Maven~~
-* ~~Salvar no Github~~
-* ~~Arquivos Properties, entidade Game, ORM- Seed dos games~~
-* ~~GameMinDTO, GameRepository,~~
-  ~~GameService, GameController~~
+* [X] Criar projeto / lib Maven
+* [X] Salvar no Github
+* [X] Arquivos Properties, entidade Game, ORM- Seed dos games
+* [X] GameMinDTO, GameRepository,
+  GameService, GameController
 
-- ~~Implementar modelo de domínio~~
-- ~~Atualizar seed da base de dados~~
-- GameDTO, busca game por id
-- Busca totas listas em /lists
-- Consulta SQL, projection, busca de games
+- [X] Implementar modelo de domínio
+- [X] Atualizar seed da base de dados
+- [X] GameDTO, busca game por id
+- [X] Busca totas listas em /lists
+- [X] Consulta SQL, projection, busca de games
   por lista
+- [ ] Criar os perfis de projeto *system.properties
 
-#### Arquitetura do sistema web
+
+
+##### Tecnologias utilizadas
+
+* Java
+* Spring Boot
+* JPA /Hibernate
+* Maven
+* PostgreSQL
+
+##### Arquitetura
 
 ![1737593779152](image/README/1737593779152.png)
 
