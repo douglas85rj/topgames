@@ -1,5 +1,7 @@
 ## Sistema web Top Games
 
+Objetivo: Gerenciar uma coleçäo de jogos
+
 Projeto criado em Java 21/Maven, com API rest e frontend. Foi utilizado Spring (Data JPA, Postgress, Spring web, H2).
 
 O objetivo é listar os jogos com nome e descrição.
@@ -13,7 +15,6 @@ Etapas do projeto:
   ~~GameService, GameController~~
 * Aprimorar import e controller
 * Criar modelo de dominio
-* Criar Frontend
 
 #### Arquitetura do sistema web
 
