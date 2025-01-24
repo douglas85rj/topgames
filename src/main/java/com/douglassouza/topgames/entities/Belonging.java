@@ -36,7 +36,7 @@ public class Belonging {
         return true;
     }
 
-    private Interger position;
+    private Integer position;
 
     public BelongingPk getId() {
         return id;
@@ -46,15 +46,15 @@ public class Belonging {
         this.id = id;
     }
 
-    public Interger getPosition() {
+    public Integer getPosition() {
         return position;
     }
 
-    public void setPosition(Interger position) {
+    public void setPosition(Integer position) {
         this.position = position;
     }
 
-    public Belonging(Game game, GameList list, Interger position) {
+    public Belonging(Game game, GameList list, Integer position) {
         id.setGame(game);
         id.setList(list);
 
