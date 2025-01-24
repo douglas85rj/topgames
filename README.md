@@ -13,8 +13,13 @@ Etapas do projeto:
 * ~~Arquivos Properties, entidade Game, ORM- Seed dos games~~
 * ~~GameMinDTO, GameRepository,~~
   ~~GameService, GameController~~
-* Aprimorar import e controller
-* Criar modelo de dominio
+
+- ~~Implementar modelo de domínio~~
+- ~~Atualizar seed da base de dados~~
+- GameDTO, busca game por id
+- Busca totas listas em /lists
+- Consulta SQL, projection, busca de games
+  por lista
 
 #### Arquitetura do sistema web
 
