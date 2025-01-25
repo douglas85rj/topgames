@@ -36,7 +36,7 @@ Etapas do projeto:
 Pré-requisito: Java21
 
 ```
-#Clonar o projeto 
+# Clonar o projeto 
 
 git clone https://github.com/douglas85rj/topgames.git
 
