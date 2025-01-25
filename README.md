@@ -31,6 +31,21 @@ Etapas do projeto:
 * PostgreSQL
 * H2
 
+##### Como executar o projeto
+
+Pré-requisito: Java21
+
+```
+#Clonar o projeto 
+
+git clone https://github.com/douglas85rj/topgames.git
+
+# executar o projeto
+./mvnw spring-boot:run
+
+
+```
+
 ##### Arquitetura
 
 ![1737593779152](image/README/1737593779152.png)
